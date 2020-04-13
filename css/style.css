@@ -3,3 +3,11 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.hero-foot .icon {
+	color: white;
+}
+
+.media-content {
+	overflow: hidden;
+}
