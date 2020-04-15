@@ -17,3 +17,7 @@ body {
 .media-content {
 	overflow: hidden;
 }
+
+a {
+	color: rgb(44, 39, 39);
+}
