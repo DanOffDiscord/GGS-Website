@@ -14,10 +14,46 @@ body {
 	color: white;
 }
 
+@media (max-width: 768px) {
+	.media-content .content .title {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.media-content .content .title {
+		font-size: 95%;
+	}
+}
+
+@media (max-width: 768px) {
+	.media-content .content .subtitle {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.media-content .content .subtitle {
+		font-size: 95%;
+	}
+}
+
 .media-content {
 	overflow: hidden;
 }
 
 a {
 	color: rgb(44, 39, 39);
+}
+
+@media (max-width: 768px) {
+	.notification .subtitle {
+		font-size: 85%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.notification .subtitle {
+		font-size: 90%;
+	}
 }
